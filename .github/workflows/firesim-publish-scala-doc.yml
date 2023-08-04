@@ -59,6 +59,9 @@ jobs:
       env:
         JAVA_HEAP_SIZE: 3500M # Default JVM maximum heap limit
     steps:
+      - uses: jlumbroso/free-disk-space@v1
+        with:
+          tool-cache: true
       - run: |
           sudo yum -y remove git git224 git224-core ius-release.noarch # remove any older git versions and collateral first from docker image
           sudo yum -y install https://repo.ius.io/ius-release-el7.rpm # re-install for now

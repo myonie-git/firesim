@@ -5,6 +5,7 @@ runs:
   using: "composite"
   steps:
     - run: |
+        source /opt/conda/etc/profile.d/conda.sh
         ./build-setup.sh --skip-validate
         # All actions that run in a GH-hosted container source env.sh before
         # running their jobs. This ensures conda is in the runner's path, which

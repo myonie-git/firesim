@@ -133,7 +133,7 @@ We're finally ready to fetch FireSim's sources. Run:
 .. code-block:: bash
    :substitutions:
 
-    git clone https://github.com/firesim/firesim
+    git clone https://github.com/myonie-git/firesim
     cd firesim
     # checkout latest official firesim release
     # note: this may not be the latest release if the documentation version != "stable"

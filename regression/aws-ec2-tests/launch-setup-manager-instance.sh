@@ -31,7 +31,7 @@ run "timeout 10m grep -q \".*machine launch script complete.*\" <(tail -f /tmp/m
 
 # setup the repo (similar to ci)
 
-run "git clone https://github.com/firesim/firesim.git"
+run "git clone https://github.com/myonie-git/firesim.git"
 run "cd firesim/ && git checkout $FULL_HASH"
 run "cd firesim/ && ./build-setup.sh --fast --skip-validate"
 run "cd firesim/sw/firesim-software && ./init-submodules.sh"

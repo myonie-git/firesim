@@ -35,7 +35,7 @@ Please follow along with the following steps to get setup if you already have an
     cd ~/
 
     (
-    git clone https://github.com/ucb-bar/chipyard -b final-tutorial-2022-isca-morning chipyard-morning
+    git clone https://github.com/myonie-git/chipyard -b final-tutorial-2022-isca-morning chipyard-morning
     cd chipyard-morning
     ./scripts/init-submodules-no-riscv-tools.sh --skip-validate
 
@@ -60,7 +60,7 @@ Please follow along with the following steps to get setup if you already have an
     cd ~/
 
     (
-    git clone https://github.com/ucb-bar/chipyard -b final-tutorial-2022-isca chipyard-afternoon
+    git clone https://github.com/myonie-git/chipyard -b final-tutorial-2022-isca chipyard-afternoon
     cd chipyard-afternoon
     ./scripts/init-submodules-no-riscv-tools.sh --skip-validate
 

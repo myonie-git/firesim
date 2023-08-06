@@ -407,7 +407,7 @@ jobs:
     runs-on: local-fpga
     steps:
       # This forces a fresh clone of the repo during the `checkout` step
-      # to resolve stale submodule URLs. See https://github.com/ucb-bar/chipyard/pull/1156.
+      # to resolve stale submodule URLs. See https://github.com/myonie-git/chipyard/pull/1156.
       - name: Delete old checkout
         run: |
             ls -alh .
@@ -442,7 +442,7 @@ jobs:
     runs-on: local-fpga
     steps:
       # This forces a fresh clone of the repo during the `checkout` step
-      # to resolve stale submodule URLs. See https://github.com/ucb-bar/chipyard/pull/1156.
+      # to resolve stale submodule URLs. See https://github.com/myonie-git/chipyard/pull/1156.
       - name: Delete old checkout
         run: |
           rm -rf ${{ github.workspace }}/* || true
@@ -460,7 +460,7 @@ jobs:
     runs-on: local-fpga
     steps:
       # This forces a fresh clone of the repo during the `checkout` step
-      # to resolve stale submodule URLs. See https://github.com/ucb-bar/chipyard/pull/1156.
+      # to resolve stale submodule URLs. See https://github.com/myonie-git/chipyard/pull/1156.
       - name: Delete old checkout
         run: |
           rm -rf ${{ github.workspace }}/* || true
@@ -477,7 +477,7 @@ jobs:
     timeout-minutes: 1200
     steps:
       # This forces a fresh clone of the repo during the `checkout` step
-      # to resolve stale submodule URLs. See https://github.com/ucb-bar/chipyard/pull/1156.
+      # to resolve stale submodule URLs. See https://github.com/myonie-git/chipyard/pull/1156.
       - name: Delete old checkout
         run: |
           rm -rf ${{ github.workspace }}/* || true

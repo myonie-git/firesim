@@ -97,7 +97,7 @@ lazy val firesimLib = (project in file("firesim-lib"))
 lazy val firesim    = (project in file("."))
   .enablePlugins(ScalaUnidocPlugin, GhpagesPlugin, SiteScaladocPlugin)
   .settings(commonSettings,
-    git.remoteRepo := "git@github.com:firesim/firesim.git",
+    git.remoteRepo := "git@github.com:myonie-git/firesim.git",
     // Publish scala doc only for the library projects -- classes under this
     // project are all integration test-related
     ScalaUnidoc / unidoc / unidocProjectFilter := inProjects(targetutils, midas, firesimLib),

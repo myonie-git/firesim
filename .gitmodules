@@ -1,9 +1,6 @@
 [submodule "platforms/f1/aws-fpga"]
 	path = platforms/f1/aws-fpga
 	url = https://github.com/firesim/aws-fpga-firesim
-[submodule "target-design/chipyard"]
-	path = target-design/chipyard
-	url = https://github.com/myonie-git/chipyard
 [submodule "sw/network-benchmarks"]
 	path = sw/network-benchmarks
 	url = https://github.com/firesim/network-benchmarks.git
